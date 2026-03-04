@@ -1,0 +1,9 @@
+file_format: "1"
+id: dairi
+name: DaiRi Band
+type: shield
+url: TODO
+requires:
+  - nice_nano
+features:
+  - encoder
