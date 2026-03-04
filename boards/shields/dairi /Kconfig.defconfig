@@ -1,0 +1,6 @@
+if SHIELD_DAIRI
+
+config ZMK_KEYBOARD_NAME
+    default "dairi"
+
+endif
