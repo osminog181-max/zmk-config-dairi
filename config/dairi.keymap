@@ -1,15 +1,8 @@
-/*
- * Copyright (c) 2023 Salvatore La Bua
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-/* Layers */
 
 #define DEFAULT 0
 #define NUMPAD 1
