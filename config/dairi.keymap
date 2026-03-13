@@ -93,7 +93,7 @@
 &kp TAB     &kp A     &kp S     &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L    &kp SEMI  &kp SQT
 &kp LSHIFT  &kp Z     &kp X     &kp C  &kp V  &kp B  &kp N  &kp M  &kp C  &kp DOT  &kp FSLH  &kp UP_ARROW
 &kp LCTRL   &kp LWIN  &kp LALT         &sl 1  &kp E  &kp S  &kp D  &kp R  &kp D    &kp D     &kp D         &kp D
-&kp D       &kp C     &kp D
+&kp D       &kp C     &kp A
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
