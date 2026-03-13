@@ -19,6 +19,7 @@
 #
 include:
   - board: nice_nano_v2
-    shield: dairi
+   # shield: dairi
+     shield: saru48wplus
   #- board: nice_nano_v2
   #  shield: settings_reset
