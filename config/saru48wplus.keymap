@@ -48,6 +48,11 @@
             bindings = <&kp C_VOLUME_UP>;
             key-positions = <9 7>;
         };
+
+        smile {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <4 5>;
+        };
     };
 
     behaviors {
