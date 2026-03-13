@@ -1,8 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
-
 
 #define DEFAULT 0
 #define NUMPAD 1
@@ -91,11 +89,11 @@
 
         default_layer {
             bindings = <
-&kp ESC     &kp Q     &kp W     &kp E  &kp R  &kp T             &kp Y  &kp U  &kp I  &kp O    &kp P     &kp LBKT        
-&kp TAB     &kp A     &kp S     &kp D  &kp F  &kp G             &kp H  &kp J  &kp K  &kp L    &kp SEMI  &kp SQT         
-&kp LSHIFT  &kp Z     &kp X     &kp C  &kp V  &kp B             &kp N  &kp M  &kp C  &kp DOT  &kp FSLH  &kp UP_ARROW    
-&kp LCTRL   &kp LWIN  &kp LALT  &sl 1  &kp E  &kp S             &kp D  &kp R  &kp D  &kp D    &kp D     &kp D
-                                              &kp D    &kp D    &kp D
+&kp ESC     &kp Q     &kp W     &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O    &kp P     &kp LBKT
+&kp TAB     &kp A     &kp S     &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L    &kp SEMI  &kp SQT
+&kp LSHIFT  &kp Z     &kp X     &kp C  &kp V  &kp B  &kp N  &kp M  &kp C  &kp DOT  &kp FSLH  &kp UP_ARROW
+&kp LCTRL   &kp LWIN  &kp LALT         &sl 1  &kp E  &kp S  &kp D  &kp R  &kp D    &kp D     &kp D         &kp D
+&kp D       &kp C     &kp D
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -103,11 +101,11 @@
 
         numpad_layer {
             bindings = <
-&kp ESC     &kp Q     &kp W     &kp E  &kp R  &kp T             &kp Y  &kp U  &kp I  &kp O    &kp P     &kp LBKT        
-&kp TAB     &kp A     &kp S     &kp D  &kp F  &kp G             &kp H  &kp J  &kp K  &kp L    &kp SEMI  &kp SQT         
-&kp LSHIFT  &kp Z     &kp X     &kp C  &kp V  &kp B             &kp N  &kp M  &kp C  &kp DOT  &kp FSLH  &kp UP_ARROW    
-&kp LCTRL   &kp LWIN  &kp LALT  &sl 1  &kp E  &kp S             &kp D  &kp R  &kp D  &kp D    &kp D     &kp D
-                                              &kp D    &kp D    &kp D
+&kp ESC     &kp Q     &kp W     &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O    &kp P     &kp LBKT
+&kp TAB     &kp A     &kp S     &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L    &kp SEMI  &kp SQT
+&kp LSHIFT  &kp Z     &kp X     &kp C  &kp V  &kp B  &kp N  &kp M  &kp C  &kp DOT  &kp FSLH  &kp UP_ARROW
+&kp LCTRL   &kp LWIN  &kp LALT         &sl 1  &kp E  &kp S  &kp D  &kp R  &kp D    &kp D     &kp D         &kp D
+&kp D       &kp D     &kp D
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
@@ -115,11 +113,11 @@
 
         bt_boot_layer {
             bindings = <
-&kp ESC     &kp Q     &kp W     &kp E  &kp R  &kp T             &kp Y  &kp U  &kp I  &kp O    &kp P     &kp LBKT        
-&kp TAB     &kp A     &kp S     &kp D  &kp F  &kp G             &kp H  &kp J  &kp K  &kp L    &kp SEMI  &kp SQT         
-&kp LSHIFT  &kp Z     &kp X     &kp C  &kp V  &kp B             &kp N  &kp M  &kp C  &kp DOT  &kp FSLH  &kp UP_ARROW    
-&kp LCTRL   &kp LWIN  &kp LALT  &sl 1  &kp E  &kp S             &kp D  &kp R  &kp D  &kp D    &kp D     &kp D
-                                              &kp D    &kp D    &kp D
+&kp ESC     &kp Q     &kp W     &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O    &kp P     &kp LBKT
+&kp TAB     &kp A     &kp S     &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L    &kp SEMI  &kp SQT
+&kp LSHIFT  &kp Z     &kp X     &kp C  &kp V  &kp B  &kp N  &kp M  &kp C  &kp DOT  &kp FSLH  &kp UP_ARROW
+&kp LCTRL   &kp LWIN  &kp LALT         &sl 1  &kp E  &kp S  &kp D  &kp R  &kp D    &kp D     &kp D         &kp D
+&kp D       &kp D     &kp D
             >;
         };
     };
