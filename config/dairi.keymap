@@ -13,10 +13,10 @@
 
         default_layer {
             bindings = <
-&kp M  &kp Q         &kp W         &kp E  &kp R      &kp T           &kp Y      &kp U      &kp I                   &kp O                     &kp P               &kp C_NEXT
-&kp Q  &kp A         &kp S         &kp D  &kp F      &kp G           &kp H      &kp J      &kp K                   &kp L                     &kp O               &kp BACKSPACE
-&kp U  &kp Z         &kp X         &kp C  &kp V      &kp B           &kp N      &kp M      &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET PERIOD  &mt QUESTION SLASH  &kp A
-&kp B  &kp LEFT_ALT  &kp LEFT_GUI         &kp LCTRL  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &kp RIGHT_SHIFT         &kp RCTRL                 &kp RIGHT_GUI       &kp RIGHT_ALT  &kp D
+&kp M  &kp Q         &kp W         &kp E  &kp R      &kp T           &kp Y      &kp U      &kp I                   &kp O                     &kp P              &kp C_NEXT
+&kp Q  &kp A         &kp S         &kp D  &kp F      &kp G           &kp H      &kp J      &kp K                   &kp L                     &kp LS(SEMICOLON)  &kp BACKSPACE
+&kp U  &kp Z         &kp X         &kp C  &kp V      &kp B           &kp N      &kp M      &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET PERIOD  &mt LS(N7) SLASH   &kp A
+&kp B  &kp LEFT_ALT  &kp LEFT_GUI         &kp LCTRL  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &kp RIGHT_SHIFT         &kp RCTRL                 &kp RIGHT_GUI      &kp RIGHT_ALT  &kp D
 &kp D  &kp C_MUTE    &kp A
             >;
 
