@@ -6,39 +6,62 @@
 #define BLT 2
 
 / {
-    combos {
-        compatible = "zmk,combos";
+combos {
+    compatible = "zmk,combos";
 
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <39 27>;
-        };
-
-        cut {
-            bindings = <&kp LC(X)>;
-            key-positions = <39 26>;
-        };
-
-        paste {
-            bindings = <&kp LC(V)>;
-            key-positions = <39 28>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <4 3>;
-        };
-
-        print {
-            bindings = <&kp LC(P)>;
-            key-positions = <1 2>;
-        };
-
-        insert {
-            bindings = <&kp INSERT>;
-            key-positions = <1 3>;
-        };
+    /* ==================== CTRL+C, X, V ==================== */
+    copy {
+        timeout-ms = <45>;
+        require-prior-idle-ms = <130>;
+        slow-release;
+        layers = <0 1 2 3>;           // работает на всех слоях
+        bindings = <&kp LC(C)>;
+        key-positions = <39 27>;
     };
+
+    cut {
+        timeout-ms = <45>;
+        require-prior-idle-ms = <130>;
+        slow-release;
+        layers = <0 1 2 3>;
+        bindings = <&kp LC(X)>;
+        key-positions = <39 26>;
+    };
+
+    paste {
+        timeout-ms = <45>;
+        require-prior-idle-ms = <130>;
+        slow-release;
+        layers = <0 1 2 3>;
+        bindings = <&kp LC(V)>;
+        key-positions = <39 28>;
+    };
+
+    /* ==================== Остальные комбо ==================== */
+    backspace {
+        timeout-ms = <60>;
+        require-prior-idle-ms = <180>;   // чуть строже, чтобы не срабатывал случайно
+        layers = <0 1 2 3>;
+        bindings = <&kp BACKSPACE>;
+        key-positions = <4 3>;
+    };
+
+    print {
+        timeout-ms = <50>;
+        require-prior-idle-ms = <160>;
+        layers = <0 1 2 3>;
+        bindings = <&kp LC(P)>;
+        key-positions = <1 2>;
+    };
+
+    insert {
+        timeout-ms = <50>;
+        require-prior-idle-ms = <160>;
+        layers = <0 1 2 3>;
+        bindings = <&kp INSERT>;
+        key-positions = <1 3>;
+    };
+};
 
     keymap {
         compatible = "zmk,keymap";
