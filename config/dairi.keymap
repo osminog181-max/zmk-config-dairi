@@ -120,7 +120,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(N7)            &kp LEFT_ARROW         &kp UP_ARROW    &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOWN_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp PIPE              &trans                 &trans          &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp PIPE              &kp EXCLAMATION        &trans          &trans     &trans  &trans
 &trans  &trans  &trans          &trans  &trans  &trans                &trans                 &trans          &trans     &trans  &trans  &trans
 &trans  &trans  &trans
             >;
