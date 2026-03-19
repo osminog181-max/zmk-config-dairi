@@ -46,7 +46,7 @@
             require-prior-idle-ms = <180>;   // чуть строже, чтобы не срабатывал случайно
             layers = <0 1 2 3>;
             bindings = <&kp BACKSPACE>;
-            key-positions = <3 5>;
+            key-positions = <5 4>;
         };
 
         print {
@@ -77,12 +77,12 @@
 
         rght_skbk {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <5 4>;
+            key-positions = <4 3>;
         };
 
         lft_skbk {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <4 3>;
+            key-positions = <2 3>;
         };
 
         calculator {
