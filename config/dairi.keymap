@@ -71,7 +71,7 @@
         };
 
         qstn {
-            bindings = <&kp LS(QUESTION)>;
+            bindings = <&kp LS(N7)>;
             key-positions = <6 7>;
         };
 
