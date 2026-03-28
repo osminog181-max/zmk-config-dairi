@@ -91,6 +91,7 @@
         calculator {
             bindings = <&kp C_AL_CALCULATOR>;
             key-positions = <5 41>;
+            layers = <0 1>;
         };
 
         caps {
