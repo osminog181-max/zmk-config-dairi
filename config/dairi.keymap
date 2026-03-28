@@ -67,7 +67,7 @@
 
         to_bt_layer {
             bindings = <&to 3>;
-            key-positions = <41 5>;
+            key-positions = <5 29>;
             layers = <0>;
         };
 
