@@ -135,10 +135,10 @@
 
         simbols {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6   &kp LS(N7)            &kp LEFT_ARROW         &kp UP_ARROW    &kp RIGHT  &trans  &bt BT_SEL 0
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOWN_ARROW  &trans     &trans  &bt BT_SEL 1
-&trans  &trans  &trans  &trans   &trans   &trans   &mt SLASH BACKSLASH   &kp EXCLAMATION        &trans          &trans     &trans  &bt BT_SEL 2
-&trans  &trans  &trans           &trans   &trans   &trans                &trans                 &trans          &trans     &trans  &bt BT_CLR_ALL  &bt BT_SEL 3
+&kp F1  &kp F2  &kp F3  &mt LA(F4) F4  &kp F5   &kp F6   &kp LS(N7)            &kp LEFT_ARROW         &kp UP_ARROW    &kp RIGHT  &trans  &bt BT_SEL 0
+&kp F7  &kp F8  &kp F9  &kp F10        &kp F11  &kp F12  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOWN_ARROW  &trans     &trans  &bt BT_SEL 1
+&trans  &trans  &trans  &trans         &trans   &trans   &mt SLASH BACKSLASH   &kp EXCLAMATION        &trans          &trans     &trans  &bt BT_SEL 2
+&trans  &trans  &trans                 &trans   &trans   &trans                &trans                 &trans          &trans     &trans  &bt BT_CLR_ALL  &bt BT_SEL 3
 &to 0   &trans  &trans
             >;
 
