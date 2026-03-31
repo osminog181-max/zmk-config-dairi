@@ -65,6 +65,5 @@
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder>;
         triggers-per-rotation = <36>;
-        debounce-interval = <5>;
     };
 };
