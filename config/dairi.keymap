@@ -7,7 +7,7 @@
 #define BLT 2
 
 &mt {
-    tapping-term-ms = <200>; // This is the value already set by default
+    tapping-term-ms = <250>; // This is the value already set by default
 };
 
 / {
