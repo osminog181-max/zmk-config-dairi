@@ -1,0 +1,6 @@
+if SHIELD_3x10
+
+config ZMK_KEYBOARD_NAME
+    default "3x10"
+
+endif
