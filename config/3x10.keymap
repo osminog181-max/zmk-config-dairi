@@ -120,11 +120,9 @@
 
         base_layer {
             bindings = <
-&trans      &kp Q         &kp W         &kp E  &kp R      &mt GRAVE T     &kp Y      &kp U      &kp I                   &kp O                     &kp P               &trans
-&kp ESCAPE  &kp A         &kp S         &kp D  &kp F      &kp G           &kp H      &kp J      &kp K                   &kp L                     &mt SQT SEMICOLON   &kp BACKSPACE
-&kp TAB     &kp Z         &kp X         &kp C  &kp V      &kp B           &kp N      &mt SQT M  &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET PERIOD  &mt QUESTION SLASH  &kp DEL
-&trans      &kp LEFT_ALT  &kp LEFT_GUI         &kp LCTRL  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &kp RIGHT_SHIFT         &kp RCTRL                 &kp RIGHT_GUI       &kp RIGHT_ALT  &trans
-&mo 1       &kp C_MUTE    &mo 2
+&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I      &kp O    &kp C_MUTE
+&kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K      &kp L    &kp P
+&kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -133,11 +131,9 @@
 
         numa_numa_yei {
             bindings = <
-&trans  &kp KP_SLASH     &kp N7  &kp N8  &kp NUMBER_9  &kp MINUS       &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp KP_ASTERISK  &kp N4  &kp N5  &kp N6        &mt EQUAL PLUS  &trans  &trans          &kp DOWN_ARROW  &trans           &trans  &trans
-&trans  &kp N0           &kp N1  &kp N2  &kp N3        &kp EQUAL       &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &kp KP_DOT       &trans          &trans        &trans          &trans  &trans          &trans          &trans           &trans  &trans  &trans
-&to 0   &trans           &trans
+&trans          &kp KP_SLASH  &kp N7  &kp N8           &kp NUMBER_9  &kp MINUS  &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
+&trans          &trans        &trans  &kp KP_ASTERISK  &kp N4        &kp N5     &kp N6  &mt EQUAL PLUS  &trans        &trans
+&kp DOWN_ARROW  &trans        &trans  &trans           &trans        &kp N0     &kp N1  &kp N2          &kp N3        &kp EQUAL
             >;
 
             label = "numa";
@@ -145,11 +141,9 @@
 
         simbols {
             bindings = <
-&kp F1  &kp F2  &kp F3          &mt LA(F4) F4  &kp F5        &kp F6        &kp LS(N7)            &kp LEFT_ARROW         &kp UP_ARROW    &kp RIGHT  &trans  &trans
-&kp F7  &kp F8  &kp F9          &kp F10        &kp F11       &kp F12       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOWN_ARROW  &trans     &trans  &trans
-&trans  &trans  &bt BT_CLR_ALL  &bt BT_SEL 2   &bt BT_SEL 1  &bt BT_SEL 0  &mt SLASH BACKSLASH   &kp EXCLAMATION        &trans          &trans     &trans  &trans
-&trans  &trans  &trans                         &trans        &trans        &trans                &trans                 &trans          &trans     &trans  &trans  &trans
-&to 0   &trans  &trans
+&kp F1          &kp F2  &kp F3  &mt LA(F4) F4  &kp F5  &kp F6   &kp LS(N7)      &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT
+&trans          &trans  &kp F7  &kp F8         &kp F9  &kp F10  &kp F11         &kp F12         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp DOWN_ARROW  &trans  &trans  &trans         &trans  &trans   &bt BT_CLR_ALL  &bt BT_SEL 2    &bt BT_SEL 1          &bt BT_SEL 0
             >;
 
             label = "sim_bt";
