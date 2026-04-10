@@ -22,7 +22,7 @@
             slow-release;
             layers = <1 2>;           // работает на всех слоях
             bindings = <&kp LC(C)>;
-            key-positions = <39 27>;
+            key-positions = <39 22 23>;
         };
 
         cut {
@@ -31,7 +31,7 @@
             slow-release;
             layers = <1 2>;
             bindings = <&kp LC(X)>;
-            key-positions = <39 26>;
+            key-positions = <39 21 22>;
         };
 
         paste {
@@ -40,7 +40,7 @@
             slow-release;
             layers = <1 2>;
             bindings = <&kp LC(V)>;
-            key-positions = <39 28>;
+            key-positions = <39 23 24>;
         };
 
         /* ==================== Остальные комбо ==================== */
@@ -50,7 +50,7 @@
             require-prior-idle-ms = <180>;   // чуть строже, чтобы не срабатывал случайно
             layers = <1 2>;
             bindings = <&kp BACKSPACE>;
-            key-positions = <5 4>;
+            key-positions = <7 6>;
         };
 
         print {
@@ -86,18 +86,6 @@
             layers = <0 1>;
         };
 
-        calculator {
-            bindings = <&kp C_AL_CALCULATOR>;
-            key-positions = <5 41>;
-            layers = <0 1>;
-        };
-
-        caps {
-            bindings = <&kp CAPS>;
-            key-positions = <37 40>;
-            layers = <0 1>;
-        };
-
         to_numa {
             bindings = <&to 1>;
             key-positions = <0 36>;
@@ -105,13 +93,12 @@
 
         to_simb {
             bindings = <&to 2>;
-            key-positions = <48 50>;
+            key-positions = <48 50 19 29>;
         };
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <16 17>;
-            layers = <1>;
+            key-positions = <8 7>;
         };
     };
 
