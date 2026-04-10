@@ -113,6 +113,23 @@
             key-positions = <16 17>;
             layers = <1>;
         };
+
+        ctrl+shft {
+            bindings = <&kp LS(LCTRL)>;
+            key-positions = <36 24>;
+        };
+
+        shift {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <24 25>;
+            timeout-ms = <1000>;
+        };
+
+        ctrl {
+            bindings = <&sk LCTRL>;
+            key-positions = <25 26>;
+            timeout-ms = <1000>;
+        };
     };
 
     keymap {
