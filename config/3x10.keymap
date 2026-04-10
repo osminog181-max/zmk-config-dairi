@@ -83,17 +83,37 @@
 
         to_numa {
             bindings = <&to 0>;
-            key-positions = <0 36>;
+            key-positions = <36>;
         };
 
         to_simb {
             bindings = <&to 0>;
-            key-positions = <48 50 19 29>;
+            key-positions = <48 50>;
         };
 
         space {
             bindings = <&kp SPACE>;
             key-positions = <8 7>;
+        };
+
+        entr {
+            bindings = <&kp ENTER>;
+            key-positions = <18 19>;
+        };
+
+        ctrl+shft {
+            bindings = <&sk LS(LEFT_CONTROL)>;
+            key-positions = <20 10>;
+        };
+
+        ctrl {
+            bindings = <&sk LCTRL>;
+            key-positions = <20 21>;
+        };
+
+        shft {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <10 11>;
         };
     };
 
