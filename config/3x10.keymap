@@ -46,7 +46,7 @@
         };
 
         to_simb {
-            bindings = <&sl 1>;
+            bindings = <&to 1>;
             key-positions = <48 50 18 17>;
         };
 
@@ -73,6 +73,11 @@
         shft {
             bindings = <&sk LEFT_SHIFT>;
             key-positions = <10 11>;
+        };
+
+        tobase {
+            bindings = <&to 0>;
+            key-positions = <0 20>;
         };
     };
 
