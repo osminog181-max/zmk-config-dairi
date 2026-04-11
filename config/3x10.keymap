@@ -47,7 +47,7 @@
 
         to_simb {
             bindings = <&sl 1>;
-            key-positions = <48 50 28 29>;
+            key-positions = <48 50 18 17>;
         };
 
         space {
