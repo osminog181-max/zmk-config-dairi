@@ -36,11 +36,3 @@ default_transform: keymap_transform_0 {
         triggers-per-rotation = <36>;
     };
 };
-
-/ {
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        transform = <&default_transform>;
-    };
-};
