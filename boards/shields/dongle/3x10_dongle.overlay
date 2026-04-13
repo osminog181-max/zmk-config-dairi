@@ -1,19 +1,17 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-/{
-    chosen {
-        zmk,kscan = &mock_kscan;
-        zmk,matrix_transform = &default_transform;
-    };
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zmk,matrix_transform = &default_transform;
+    };
 
-
-    mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
-    };
-
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
 
 default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
@@ -37,4 +35,12 @@ default_transform: keymap_transform_0 {
         sensors = <&encoder>;
         triggers-per-rotation = <36>;
     };
+};
+
+/ {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
+    };
 };
