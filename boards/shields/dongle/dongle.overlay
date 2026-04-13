@@ -32,4 +32,3 @@ default_transform: keymap_transform_0 {
         sensors = <&encoder>;
         triggers-per-rotation = <36>;
     };
-};
