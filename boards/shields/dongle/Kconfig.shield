@@ -1,0 +1,5 @@
+config SHIELD_DONGLE
+    def_bool y
+
+config ZMK_KEYBOARD_NAME
+    default "3x10"
