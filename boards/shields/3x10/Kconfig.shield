@@ -1,2 +1,4 @@
 config SHIELD_3X10
     def_bool $(shields_list_contains,3x10)
+config SHIELD_DONGLE
+	def_bool $(shields_list_contains,dongle)
