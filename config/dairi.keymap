@@ -6,9 +6,7 @@
 #define NUMPAD 1
 #define BLT 2
 
-&mt {
-    tapping-term-ms = <250>;
-};
+&mt { tapping-term-ms = <250>; };
 
 / {
     combos {
@@ -120,7 +118,7 @@
 &kp ESCAPE  &kp A         &kp S         &kp D  &kp F      &kp G           &kp H      &kp J      &kp K                   &kp L                     &mt SQT SEMICOLON   &kp BACKSPACE
 &kp TAB     &kp Z         &kp X         &kp C  &kp V      &kp B           &kp N      &mt SQT M  &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET PERIOD  &mt QUESTION SLASH  &kp DEL
 &trans      &kp LEFT_ALT  &kp LEFT_GUI         &kp LCTRL  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &kp RIGHT_SHIFT         &kp RCTRL                 &kp RIGHT_GUI       &kp RIGHT_ALT  &trans
-&mo 1       &kp C_MUTE    &mo 2
+&mo 1       &kp A         &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
