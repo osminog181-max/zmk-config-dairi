@@ -1,9 +1,0 @@
-file_format: "1"
-id: saru48wplus
-name: SLBLabs Saru48W+
-type: shield
-url: TODO
-requires:
-  - nice_nano
-features:
-  - encoder
