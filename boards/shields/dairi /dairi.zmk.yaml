@@ -1,9 +1,0 @@
-file_format: "1"
-id: dairi
-name: dairi
-type: shield
-url: TODO
-requires:
-  - nice_nano
-features:
-  - encoder
