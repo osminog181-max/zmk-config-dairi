@@ -1,4 +1,4 @@
-if SHIELD_3X10
+if SHIELD_DAIRI
 
 config ZMK_KEYBOARD_NAME
     default "dairi"
