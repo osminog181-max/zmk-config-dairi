@@ -131,7 +131,7 @@
             label = "base";
         };
 
-        numa_numa_yei {
+        numa {
             bindings = <
 &trans  &kp KP_SLASH     &kp N7  &kp N8  &kp NUMBER_9  &kp MINUS       &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &trans
 &trans  &kp KP_ASTERISK  &kp N4  &kp N5  &kp N6        &mt EQUAL PLUS  &trans  &trans          &kp DOWN_ARROW  &trans           &trans  &trans
