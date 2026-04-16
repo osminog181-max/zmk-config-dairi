@@ -8,7 +8,8 @@ include:
       -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=1
 
   - board: nice_nano_v2
-    shield: 3x10
+    #shield: 3x10
+    shield: dairi
     cmake-args:
      -DCONFIG_ZMK_SPLIT=y
      -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
