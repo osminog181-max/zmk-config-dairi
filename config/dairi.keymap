@@ -7,20 +7,18 @@
 #define BLT 2
 
 &mt {
-    tapping-term-ms = <250>; // This is the value already set by default
+    tapping-term-ms = <250>;
 };
 
 / {
     combos {
         compatible = "zmk,combos";
 
-        /* ==================== CTRL+C, X, V ==================== */
-
         copy {
             timeout-ms = <45>;
             require-prior-idle-ms = <130>;
             slow-release;
-            layers = <1 2>;           // работает на всех слоях
+            layers = <1 2>;
             bindings = <&kp LC(C)>;
             key-positions = <39 27>;
         };
@@ -43,11 +41,9 @@
             key-positions = <39 28>;
         };
 
-        /* ==================== Остальные комбо ==================== */
-
         backspace {
             timeout-ms = <60>;
-            require-prior-idle-ms = <180>;   // чуть строже, чтобы не срабатывал случайно
+            require-prior-idle-ms = <180>;
             layers = <1 2>;
             bindings = <&kp BACKSPACE>;
             key-positions = <5 4>;
