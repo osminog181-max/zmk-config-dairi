@@ -16,10 +16,10 @@ if SHIELD_DONGLE
 config ZMK_KEYBOARD_NAME
     default "dongle"
 
-config ZMK_SPLIT
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
-
-config ZMK_BLE
+	
+config ZMK_USB
 	default y
 
 endif
