@@ -1,5 +1,0 @@
-#include "3x10.dtsi"
-
-&encoder {
-    status = "okay";
-};
