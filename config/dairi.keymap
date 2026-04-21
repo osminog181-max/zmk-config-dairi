@@ -71,13 +71,13 @@
         rght_skbk {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <4 3>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
         lft_skbk {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <2 3>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
         calculator {
