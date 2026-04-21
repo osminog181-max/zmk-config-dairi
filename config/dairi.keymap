@@ -44,7 +44,7 @@
             require-prior-idle-ms = <180>;
             layers = <1 2>;
             bindings = <&kp BACKSPACE>;
-            key-positions = <5 4>;
+            key-positions = <4 3>;
         };
 
         print {
@@ -104,7 +104,7 @@
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <16 17>;
+            key-positions = <16 15>;
             layers = <1>;
         };
     };
@@ -127,8 +127,8 @@
 
         numa {
             bindings = <
-&trans  &kp KP_PLUS    &kp N7  &kp N8  &kp NUMBER_9  &kp NUMBER_0     &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp KP_MINUS   &kp N4  &kp N5  &kp N6        &kp KP_DOT       &trans  &trans          &kp DOWN_ARROW  &trans           &trans  &trans
+&trans  &kp KP_PLUS    &kp N7  &kp N8  &kp NUMBER_9  &kp KP_DOT       &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &trans
+&trans  &kp KP_MINUS   &kp N4  &kp N5  &kp N6        &kp NUMBER_0     &trans  &trans          &kp DOWN_ARROW  &trans           &trans  &trans
 &trans  &kp KP_DIVIDE  &kp N1  &kp N2  &kp N3        &kp KP_MULTIPLY  &trans  &trans          &trans          &trans           &trans  &trans
 &trans  &kp KP_EQUAL   &trans          &trans        &trans           &trans  &trans          &trans          &trans           &trans  &trans  &trans
 &to 0   &trans         &trans
