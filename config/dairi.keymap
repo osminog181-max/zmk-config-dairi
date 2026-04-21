@@ -18,7 +18,7 @@
             slow-release;
             layers = <1 2>;
             bindings = <&kp LC(C)>;
-            key-positions = <39 27>;
+            key-positions = <27 38>;
         };
 
         cut {
@@ -27,7 +27,7 @@
             slow-release;
             layers = <1 2>;
             bindings = <&kp LC(X)>;
-            key-positions = <39 26>;
+            key-positions = <26 38>;
         };
 
         paste {
@@ -36,7 +36,7 @@
             slow-release;
             layers = <1 2>;
             bindings = <&kp LC(V)>;
-            key-positions = <39 28>;
+            key-positions = <28 38>;
         };
 
         backspace {
