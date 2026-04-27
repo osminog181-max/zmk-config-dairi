@@ -1,1 +1,2 @@
 #include "dairi.dtsi"
+#include "physical_layouts.dtsi"
